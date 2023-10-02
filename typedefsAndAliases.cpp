@@ -2,6 +2,7 @@
 #include <vector>
 #include <string>
 
+
 // typedef std::vector<std::pair<std::string, int>> pairList_t;
 //  alias for string
 typedef std::string text_t;
@@ -15,6 +16,7 @@ int main()
     std::cout << name << '\n';
 
     number_t age = 217;
+    //std::cout << age << '\n';
     std::cout << age << '\n';
 
     return 0;
