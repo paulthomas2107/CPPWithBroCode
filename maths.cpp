@@ -23,8 +23,12 @@ int main()
     z = abs(-10);
     std::cout << z << '\n';
 
-    x = 3.14;
+    x = 3.99;
     z = round(x);
+    std::cout << z << '\n';
+
+    x = 3.99;
+    z = floor(x);
     std::cout << z << '\n';
 
     return 0;

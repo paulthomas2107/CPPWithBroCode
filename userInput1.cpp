@@ -11,7 +11,7 @@ int main()
 
     std::cout << "What's your name ? ";
     std::getline(std::cin >> std::ws, name);
-
+    std::cout << "Hello " << "Paul is the best !" <<  "\n";
 
     std::cout << "Hello " << name << " age " << age << "\n";
 
