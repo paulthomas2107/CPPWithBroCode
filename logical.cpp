@@ -5,22 +5,24 @@ int main()
 {
 
     bool hungry = false;
+    int temp = 34;
 
-    if (hungry) {
-        std::cout << "Hungry\n";
+    if (!hungry && temp > 33)
+    { // (AND) !NOT or vice versa
+        std::cout << "Hungry and temp above norm\n";
     }
     else
     {
         std::cout << "Full\n";
     }
 
-    if (!hungry)
+    if (!hungry || temp > 99) // (OR) checks 1 or the other
     {
-        std::cout << "Full\n";
+        std::cout << "Hungry and temp above norm\n";
     }
     else
     {
-        std::cout << "Hungry\n";
+        std::cout << "Full\n";
     }
 
     return 0;
