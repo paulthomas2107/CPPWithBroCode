@@ -1,2 +1,2 @@
 
-        for (int j = 0; j < size - i - 1; j++)
+    std::cout << cars[2][1] << '\n';
