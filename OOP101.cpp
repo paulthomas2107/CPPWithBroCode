@@ -20,10 +20,10 @@ private:
 
     Human(std::string aName, std::string aOccupation, int aAge, std::string aStatus)
     {
-        Human::name = aName;
-        Human::occupation = aOccupation;
-        Human::age = aAge;
-        Human::status = aStatus;
+        this->name = aName;
+        this->occupation = aOccupation;
+        this->age = aAge;
+        this->status = aStatus;
     }
 
 public:
@@ -41,13 +41,13 @@ public:
     void eat()
     {
         std::cout << "Eating\n";
-        Human::chew();
+        this->chew();
     }
 
     void drink()
     {
         std::cout << "Drinking\n";
-        Human::snore();
+        this -> snore();
     }
 
     int getAge()
